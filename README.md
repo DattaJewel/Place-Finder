@@ -1,7 +1,7 @@
 # Place-Finder
 ### User Guide
 - Clone or download this repo
-- substitute YOUR_KEY in the code below in index.html file with the Your google map API key.
+- Substitute "YOUR_KEY" in the code below in index.html file with Your google map API key.
 
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=initMap"
   type="text/javascript"></script>
