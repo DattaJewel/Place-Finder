@@ -18,7 +18,10 @@ function initMap() {
         zoom: 15,
         center: { lat: 28.644800, lng: 77.216721}
     }
-
+    
+    circles = [];
+    markers = [];
+    
     map = new google.maps.Map(document.getElementById('map'), options);
 
 }
