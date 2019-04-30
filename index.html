@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Place Finder</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <style>
+        #map {
+            height: 450px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class=" col-sm-12 col-sm-offset-3">
+                <h1>Place Finder</h1>
+            </div>
+
+            <div class="col-sm-9" style="margin-top: 10px">
+                <!-- <h1>Google Map</h1> -->
+                <div id="map"></div>
+            </div>
+            <div class=" col-sm-offset-1 col-sm-2" style="margin-top: 10px">
+
+                <div class="row">
+                    <button class="btn btn-primary" id="btn1" type="submit"">Mark Your Location</button>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <label for="inp-radius" class="col-2 col-form-label">Radius In Meter</label>
+                    <input class="form-control" type="number" value="100" id="inp-radius">
+                </div>
+
+                <div class="container">
+                    <form>
+                        <label class="radio" id="type-opt">
+
+                        </label>
+                    </form>
+                </div>
+                <br>
+
+                <div class="row" style="margin-top: 10px">
+                    <button class="btn btn-primary" id="btn2" type="submit">Get Result</button>
+                    <button class="btn btn-primary" id="btn3" type="submit" style="margin-left: 30px">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+<script src=" script.js"></script>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=initMap&libraries=geometry,places" async defer></script>
+
+
+</html>
