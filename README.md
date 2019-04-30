@@ -1,10 +1,8 @@
 # Place-Finder
 ### User Guide
 - Clone or download this repo
-- Substitute "YOUR_KEY" in the code below in index.html file with Your google map API key.
-
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=initMap"
-  type="text/javascript"></script>
+- Substitute "YOUR_KEY" in the code below in index.html file with your google map API key.
+  <script src="https://maps.googleapis.com/maps/api/js key=YOUR_KEY&callback=initMap&libraries=geometry,places" async defer></script>
 - Then Open the index.html file in your browser.
 - Click the "Mark Your Locatioin" button to get the marker on your current location.
 - You can drag the marker to change your loaction.
